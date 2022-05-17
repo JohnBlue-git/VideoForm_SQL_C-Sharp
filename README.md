@@ -9,9 +9,9 @@ Program.cs works as the main function in where MainForm object is allocated and 
 
 where
 
-MainForm class in MainForm.h
+MainForm class is defined in MainForm.cs and MainForm.Designer.cs
 
-ChildForm class in ChildForm.h
+ChildForm class is defined in ChildForm.cs and ChildForm.Designer.cs
 
 2.
 MainForm class can dynamically allocate multiple ChildForm objects in which each ChildForm object can handle one video thread
