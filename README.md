@@ -4,10 +4,8 @@ A form project with video stream, image saving and image exporting functions, wh
 
 ## Confriguration of coding
 
-MDI.cpp works as the main function in which MainForm object is runing as an application.
+Program.cpp works as the main function in where MainForm object is allocated and run as an form application.
 
-MainForm class can dynamically allocate multiple MyForm object, and MainForm object will be set as parent for every MyForm objects.
+MainForm class can dynamically allocate multiple ChildForm objects in which each ChildForm object can handle one video thread
 
-Each MyForm object can handle one video thread.
-
-Additionally, template linkedlist class have been employed fully over this project.
+, and MainForm object will be set as parent for each ChildForm object.
