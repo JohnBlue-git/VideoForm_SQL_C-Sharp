@@ -5,7 +5,7 @@ A form project with video stream, image saving and image exporting functions, wh
 ## Confriguration of coding
 
 1.
-Program.cpp works as the main function in where MainForm object is allocated and run as form application.
+Program.cs works as the main function in where MainForm object is allocated and run as form application.
 
 where
 
