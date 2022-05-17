@@ -1,2 +1,2 @@
 # VideoForm_SQL_C-Sharp
-A form project of video stream application with saving and exporting function, which is supported by Emgu.CV and SQL
+A form project with video stream, image saving and image exporting functions, which is supported by WinForm, Emgu.CV and SQL
