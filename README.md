@@ -4,7 +4,7 @@ A form project with video stream, image saving and image exporting functions, wh
 
 ## Confriguration of coding
 
-Program.cpp works as the main function in where MainForm object is allocated and run as an form application.
+Program.cpp works as the main function in where MainForm object is allocated and run as form application.
 
 MainForm class can dynamically allocate multiple ChildForm objects in which each ChildForm object can handle one video thread
 
