@@ -578,7 +578,7 @@ namespace CSharp_MyForm
                     command.ExecuteNonQuery();
                     // saving
                     command.Parameters.Clear();
-                    command.CommandText = "INSERT INTO dbo.[Table] (Id, Pic) VALUES (@Id, @Pic);";
+                    command.CommandText = "INSERT INTO dbo.[Table] WITH (UPDLOCK) (Id, Pic) VALUES (@Id, @Pic);";
                     command.Parameters.AddWithValue("@Id", ++sql_index);
                     command.Parameters.AddWithValue("@Pic", step3);
                     command.Connection = connectionString;
@@ -619,7 +619,7 @@ namespace CSharp_MyForm
                 try
                 {
                     Image<Bgr, byte> step1 = new Image<Bgr, byte>(40, 30);
-                    command.CommandText = "SELECT Id, Pic From dbo.[Table];";
+                    command.CommandText = "SELECT Id, Pic From dbo.[Table] WITH (UPDLOCK);";
                     command.Connection = connectionString;
                     using (SqlDataReader reader = command.ExecuteReader())
                     {
