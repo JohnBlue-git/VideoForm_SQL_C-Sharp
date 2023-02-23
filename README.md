@@ -2,6 +2,10 @@
 
 A form project with video stream, image saving and image exporting functions, which is supported by WinForm, Emgu.CV and SQL.
 
+## Video Demonstration
+
+There is a Demonstration_VideoForm.mp4 for demonstration
+
 ## Confriguration of coding
 
 1.
@@ -18,6 +22,3 @@ MainForm class can dynamically allocate multiple ChildForm objects in which each
 
 , and MainForm object will be set as parent for each ChildForm object.
 
-## Video Demonstration
-
-There is a Demonstration_VideoForm.mp4 for demonstration
